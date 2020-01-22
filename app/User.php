@@ -8,6 +8,12 @@ use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
 {
+
+    public function orders()
+    {
+        return $this->hasMany('App\Order');   // a users has many orders
+    }
+
     use Notifiable;
 
     /**

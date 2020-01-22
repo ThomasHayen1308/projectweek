@@ -1,0 +1,15 @@
+main {
+   min-height: 500px;
+}
+
+.cardShopMaster {
+    cursor: pointer;
+
+    .btn {
+        display: none;
+    }
+}
+
+.btn[disabled] {
+    cursor: not-allowed;
+}
