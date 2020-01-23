@@ -3,7 +3,7 @@
 @section('title', 'Users')
 
 @section('main')
-    <h1>Users</h1>
+    <h1>Docenten</h1>
     @include('shared.alert')
     <form method="get" action="/admin/users" id="searchForm">
         <div class="row">

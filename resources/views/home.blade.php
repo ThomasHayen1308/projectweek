@@ -1,6 +1,9 @@
 @extends('layouts.template')
 
 @section('main')
-    <h1>Projectweek</h1>
-    <p>Welkom op onze projectpagina</p>
+    <div class="text-center">
+        <h1>TM - Lokaalbezetting</h1>
+        <p>Welkom op onze projectpagina, hier wordt de lokaalverdeling gedaan.</p>
+        <img src="/pictures/plattegrondTMGeel.png" alt="plattegrond Thomas More Geel" class="img-fluid">
+    </div>
 @endsection

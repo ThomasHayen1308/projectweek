@@ -23,6 +23,9 @@ Route::view('/', 'home');
 Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout');
 
+//  ROUTES TO LOKALEN
+Route::view('admin.users.lokalen','/users/lokalen');
+
 //  ROUTES TO USER PROFILE
 Route::redirect('users', '/users/profile');
 Route::middleware(['auth'])->prefix('users')->group(function () {

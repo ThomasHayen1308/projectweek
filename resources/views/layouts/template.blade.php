@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link rel="icon" href="assets/favicon.ico">
-    <title>@yield('title', 'Projectweek')</title>
+    <title>@yield('title', 'TM - Lokaalbezetting')</title>
 
 </head>
 <body>

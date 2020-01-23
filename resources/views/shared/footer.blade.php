@@ -1,4 +1,4 @@
 <div class="container">
     <hr>
-    <p class="text-right">Projectweek - ©{{date("Y")}} </p>
+    <p class="text-right">TM Lokaalbezetting - ©{{date("Y")}} </p>
 </div>

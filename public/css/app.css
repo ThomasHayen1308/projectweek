@@ -11692,3 +11692,19 @@ a.text-dark:focus {
   }
 }
 
+main {
+  min-height: 500px;
+}
+
+.cardShopMaster {
+  cursor: pointer;
+}
+
+.cardShopMaster .btn {
+  display: none;
+}
+
+.btn[disabled] {
+  cursor: not-allowed;
+}
+
